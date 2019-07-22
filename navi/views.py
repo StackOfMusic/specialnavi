@@ -9,3 +9,7 @@ class Navi_view(TemplateView):
 
 class ChartView(TemplateView):
     template_name = 'charts.html'
+
+
+class TableView(TemplateView):
+    template_name = 'tables.html'
